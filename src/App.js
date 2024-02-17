@@ -9,7 +9,18 @@ export default function App() {
         Enter a word...
         <Dictionary />
       </div>
-      <footer>Coded by Lucie</footer>
+      <footer>
+        Coded by{" "}
+        <a href="https://github.com/luciebarbierdearnley">
+          Lucie Barbier-Dearnley
+        </a>
+        . Open-sourced on{" "}
+        <a href="https://github.com/luciebarbierdearnley/dictionary-project">
+          GitHub
+        </a>
+        . Hosted on{" "}
+        <a href="https://dictionary-app-lbd.netlify.app/">Netlify</a>
+      </footer>
     </div>
   );
 }
