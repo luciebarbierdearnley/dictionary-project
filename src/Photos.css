@@ -1,0 +1,16 @@
+.Photos .gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 10px;
+}
+
+.Photos img {
+  border-radius: 5px;
+  max-width: 300px;
+}
+
+@media (max-width: 900px) {
+  .Photos .gallery {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,9 +1,10 @@
 .Dictionary section {
   background-color: #f5ede2;
+  max-width: 960px;
   padding: 30px;
   border-radius: 5px;
   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
-  margin: 20px 0;
+  margin: 20px auto;
 }
 
 .Dictionary .search {
@@ -39,4 +40,10 @@
   background-color: #2e3830;
   color: #f5ede2;
   font-size: 20px;
+}
+
+@media (max-width: 900px) {
+  .Dictionary .search-input {
+    max-width: 250px;
+  }
 }
