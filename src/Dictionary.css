@@ -39,7 +39,6 @@
 .Dictionary .search-button:hover {
   background-color: #2e3830;
   color: #f5ede2;
-  font-size: 20px;
 }
 
 @media (max-width: 900px) {
