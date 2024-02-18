@@ -31,6 +31,7 @@ body {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   opacity: 0.7;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 900px) {
