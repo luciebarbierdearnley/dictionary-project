@@ -5,8 +5,8 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        Dictionary <br />
-        Enter a word...
+        <h1>Dictionary</h1> <br />
+        <h3>Enter a word...</h3>
         <Dictionary />
       </div>
       <footer>

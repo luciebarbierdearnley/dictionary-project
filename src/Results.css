@@ -1,0 +1,12 @@
+.Results h2 {
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+.Results h4 {
+  font-size: 20px;
+}
+.Results .word-phonetic {
+  background-color: #2e3830;
+  color: #e6dac8;
+}
